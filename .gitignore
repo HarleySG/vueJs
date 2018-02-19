@@ -33,14 +33,6 @@ logs
 *.log
 npm-debug.log*
 yarn-debug.log*
-yarn-error.log*
-<<<<<<< HEAD
-node_modules/
-dist/
-npm-debug.log
-yarn-error.log
-=======
->>>>>>> dbc8eb45dd2a21cb608687760a6716736c2bfc27
 
 # Runtime data
 pids
@@ -72,6 +64,7 @@ build/Release
 # Dependency directories
 node_modules/
 jspm_packages/
+dist/
 
 # Typescript v1 declaration files
 typings/
@@ -208,7 +201,6 @@ prepros.cfg
 prepros-6.config
 
 # End of https://www.gitignore.io/api/osx,node,macos,windows,visualstudiocode,adobe,video,audio,sublimetext,prepros
-<<<<<<< HEAD
 
 # Editor directories and files
 .idea
@@ -216,5 +208,3 @@ prepros-6.config
 *.ntvs*
 *.njsproj
 *.sln
-=======
->>>>>>> dbc8eb45dd2a21cb608687760a6716736c2bfc27
