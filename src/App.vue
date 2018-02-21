@@ -2,7 +2,7 @@
 	<main id="app" v-cloak class="o-todo">
 		<div class="c-todoApp">
 			<header-todo></header-todo>
-			<new-todo></new-todo>
+			<new-todo :listTodos="arrTodos"></new-todo>
 			<list-todo :listTodos="arrTodos"></list-todo>
 		</div>
 	</main>
