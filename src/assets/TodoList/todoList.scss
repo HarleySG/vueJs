@@ -1,0 +1,38 @@
+.c-{
+	&todo{
+		&-body{
+			position: relative;
+			z-index: 2;
+			border-top: 1px solid var(--color_1);
+		}
+		&-list{
+			margin: 0;
+			padding: 0;
+			&--item{
+				display: flex;
+				flex-wrap: wrap;
+				position: relative;
+
+				padding: 0;
+				list-style: none;
+				color: inherit;
+				border-bottom: 1px solid var(--color_1);
+			}
+		}
+		&-checkTodo{
+			&[type="checkbox"]{
+				display: none;
+				& + label{
+					width: 100%;
+					padding: 1rem;
+					padding-left: 2rem;
+					position: relative;
+					user-select: none;
+					cursor: pointer;
+					white-space: pre-line;
+					word-break: break-all;
+				}
+			}
+		}
+	}
+}
