@@ -1,7 +1,7 @@
 <template>
-	<div>
+	<header class="c-todo-header">
 		<hr>
-	</div>
+	</header>
 </template>
 
 <script>
@@ -9,3 +9,7 @@ export default {
 
 }
 </script>
+
+<style lang="scss" scoped>
+	@import '../assets/TodoList/todoHeader.scss';
+</style>
